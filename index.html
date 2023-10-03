@@ -39,9 +39,10 @@
 
         <!--  column one content goes below here -->
         <div class="col-12  col-md-6  col-lg-2  ">
-          Column One
+
           <div class="row">
-            <button type="button" class="btn btn-warning mt-3 circle">Compose</button>
+            <button type="button" class="btn btn-warning mt-3 circle" id="compose-btn"  data-bs-toggle="modal" data-bs-target="#compose">
+             Compose</button>
             <button type="button" class="btn btn-primary mt-3">Inbox</button>
             <button type="button" class="btn btn-primary mt-3">Spam</button>
             <button type="button" class="btn btn-primary mt-3">Trash</button>
@@ -52,18 +53,20 @@
         <!--  column two content goes below here -->
 
         <div class="col-sm-12 col-md-6 col-lg-8">
-         
+
 
           <input type="text" class="form-control" placeholder="search">
-          
+
           <div class="accordion" id="accordionExample">
             <div class="accordion-item">
               <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
                   <div class="card">
                     <div class="card-body ">
                       <h5 class="card">Apple</h3>
-                      <h6 class="card-subtitle mb-2 text-body-secondary">New iPhone</h5>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">New iPhone
+                      </h5>
                       <h6 class="card-subtitle mb-2 text-body-secondary">9:00</h6>
                       <p class="normal-text">Get your iPhone here! </p>
                     </div>
@@ -81,7 +84,8 @@
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                   <div class="card">
                     <div class="card-body">
                       <h5 class="card">Tesla</h5>
@@ -94,7 +98,7 @@
               <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                   <!-- email body -->
-             <h6>Tesla</h6>
+                  <h6>Tesla</h6>
                   <h6>Good deals on cars here </h6>
                   <h6>Come to our auto sales event </h6>
                 </div>
@@ -102,7 +106,8 @@
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                   <div class="card">
                     <div class="card-body">
                       <h5 class="card">Ticket Masters</h5>
@@ -118,13 +123,14 @@
                   <h6>come to ticket masters</h6>
                   <h6>The place to get your tickets </h6>
                   <h6>Buy your tickets online</h6>
-           
+
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                   <div class="card">
                     <div class="card-body">
                       <h5 class="card">Art Gallery</h5>
@@ -137,27 +143,24 @@
               <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                   <!-- email body -->
-               
-                  <h6>You're invited to the art show  </h6>
+
+                  <h6>You're invited to the art show </h6>
                   <h6>Come and enjoy some of the amazing work</h6>
-                  
+
                 </div>
               </div>
             </div>
           </div>
-         
 
-        
 
-        
-         
+
         </div>
 
 
         <div class="col-12  col-md-6  col-lg-2 ">
-          Column Three
+
           <div class="d-flex flex-column justify-content-around full-height">
-         
+
             <button type="button" class="btn btn-primary mt-3">Reply</button>
             <button type="button" class="btn btn-primary mt-3">Reply</button>
             <button type="button" class="btn btn-primary mt-3">Reply</button>
@@ -165,38 +168,50 @@
           </div>
         </div>
 
-       
-
-
-
-
-
-
-
-
-
-        <div class="footer">
-
-          <div class="socialmedia">
-            <a href="https://www.facebook.com" target="_blank">
-              <i class="fa fa-facebook"></i>
-            </a>
-            <a href="https://www.twitter.com" target="_blank">
-              <i class="fa fa-twitter"></i>
-            </a>
-          </div>
-          <div class="copyright">
-            <p>&copy; all rights reserved. 2023</p>
-          </div>
-        </div>
 
       </div>
     </div>
+  </div>
+  <div class="footer">
+
+    <div class="socialmedia">
+      <a href="https://www.facebook.com" target="_blank">
+        <i class="fa fa-facebook"></i>
+      </a>
+      <a href="https://www.twitter.com" target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </div>
+    <div class="copyright">
+      <p>&copy; all rights reserved. 2023</p>
     </div>
 
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+ 
+  </div>  
+  <div class="modal" id="compose" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Modal body text goes here.</p>
+          <textarea name="email-text" id="email-text" cols="30" rows="10"></textarea>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+    <script src="modal.js"></script>
 </body>
 
 </html>
